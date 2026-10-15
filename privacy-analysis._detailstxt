@@ -1,0 +1,211 @@
+# Privacy Policy for EarnForRetirement
+
+**Effective Date:** August 24, 2026
+
+**Developer:** [DEVELOPER/COMPANY NAME]
+**Privacy Contact:** [CONTACT EMAIL]
+**Website:** [WEBSITE]
+
+## 1. Introduction
+
+EarnForRetirement ("the App") helps users identify recyclable materials using photographs and AI-powered image analysis, estimate a possible value for identified materials, and view nearby drop-off locations.
+
+This Privacy Policy explains how the current version of the App accesses, collects, uses, stores, and shares information.
+
+The App's data practices may change when new features or services are introduced. If a future change affects how user data is collected, used, stored, processed, or shared, this Privacy Policy will be updated accordingly.
+
+## 2. Information We Collect and Use
+
+Depending on the features you use and permissions you grant, the App may handle the following information:
+
+* Account and authentication information
+* Email address and verification information, when required for authentication
+* Photos captured with the camera or selected from the device
+* Information generated from recyclable-material analysis
+* Authentication tokens stored on the device
+* Location information when location permission is granted
+* Local scan history
+
+The current App does not include third-party advertising SDKs, analytics SDKs, crash-reporting SDKs, or push-notification functionality.
+
+## 3. Account and Authentication Information
+
+The App uses account credentials to authenticate users through our authentication service.
+
+Authentication information is transmitted to our authentication backend when required for login and authentication.
+
+If email verification or two-factor authentication is required, an email address and verification code may be used to verify the user's identity.
+
+After successful authentication, access and refresh tokens are stored on the device using the platform's secure storage mechanisms.
+
+The App does not intentionally store passwords in ordinary local application storage.
+
+## 4. Photos, Camera, and Media Access
+
+The App allows users to provide photographs for recyclable-material analysis by:
+
+* Taking a photograph using the device camera; or
+* Selecting an existing photograph from the device photo library.
+
+These images are used to identify recyclable materials and provide scan results.
+
+The App does not use the microphone for this functionality.
+
+Users can deny camera or photo-library permissions. However, an image is required to perform a material scan.
+
+Users should avoid including unnecessary personal information or other people in photographs.
+
+## 5. AI and Image Processing
+
+When a user analyzes a photograph:
+
+1. The image is sent to Google Gemini for AI-powered material identification.
+2. Gemini processes the image and returns information such as the identified material and other analysis results.
+3. The App uses the analysis results to display information about the material and calculate an estimated value.
+
+The current App may also transmit scan-related information to backend services used to support the application's functionality.
+
+The current App does not support PDF or document uploads.
+
+Google's processing of information is subject to Google's applicable terms, privacy policies, and data-use settings for the AI service.
+
+## 6. Location Information
+
+When the user uses the nearby drop-off-location feature and grants location permission, the App may access the device's approximate or precise location to estimate distances to nearby facilities.
+
+In the current configuration, the location information is used on the device and is not sent to the App's backend for this feature.
+
+If location permission is denied, the App may use fallback location information to display available facilities.
+
+When the user selects **Directions**, the device may open Google Maps with the selected facility's information.
+
+When the user selects **Call**, the device may open the phone application with the listed telephone number.
+
+These actions are initiated by the user.
+
+## 7. How We Use Information
+
+We use information handled by the App to:
+
+* Authenticate users and maintain their sessions
+* Verify user identity when required
+* Analyze recyclable-material photographs
+* Identify recyclable materials
+* Provide AI-generated analysis results
+* Calculate and display estimated values
+* Maintain a local history of recent scans
+* Provide nearby drop-off-location information
+* Estimate distances to facilities
+* Open directions or telephone actions requested by the user
+
+## 8. How We Share Information
+
+The App may share or transmit information with the following services:
+
+**Google Gemini / Google AI**
+Used to analyze recyclable-material photographs.
+
+**Our authentication and backend services**
+Used to authenticate users and support application functionality.
+
+**Google Maps**
+Used when the user requests directions.
+
+The App does not sell personal information.
+
+The App does not currently include third-party advertising SDKs.
+
+We do not claim that information is never shared with third parties. Information may be transmitted to service providers when necessary to provide the App's features.
+
+## 9. Data Storage
+
+### Device Storage
+
+The App currently stores:
+
+* Authentication tokens using secure device storage
+* Local scan history
+
+Local information may remain until it is overwritten, cleared by the user or operating system, or removed when the App is uninstalled.
+
+### Backend and Cloud Services
+
+Information transmitted to backend or third-party services may be stored and processed according to the applicable service's configuration and policies.
+
+The current App does not provide a complete in-app feature for deleting an account or remotely deleting all scan-related information.
+
+## 10. Data Retention and Deletion
+
+Local data may be removed when the user clears the App's data or uninstalls the App, subject to the behavior of the operating system.
+
+For information stored by our backend services, users may contact us to request access to or deletion of applicable personal information.
+
+Deletion of information held by third-party services may also depend on those services' applicable policies and technical capabilities.
+
+We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy or as required by applicable law.
+
+## 11. Data Security
+
+We use HTTPS for communications with our configured backend services and Google AI services where applicable.
+
+Authentication tokens are stored using platform secure-storage mechanisms.
+
+We take reasonable measures to protect information handled by the App. However, no method of electronic transmission or storage can be guaranteed to be completely secure.
+
+## 12. User Rights
+
+Depending on applicable law and your location, you may have rights to:
+
+* Access your personal information
+* Correct inaccurate information
+* Request deletion of your personal information
+* Request information about how your information is processed
+
+To make a privacy or data-deletion request, contact us using the contact information provided below.
+
+## 13. Children's Privacy
+
+EarnForRetirement is not directed toward children under 13 or the applicable minimum age required by local law.
+
+We do not knowingly collect personal information directly from children.
+
+If a parent or guardian believes that a child has provided personal information through the App, please contact us using the contact information below.
+
+## 14. International Data Transfers
+
+Information sent to Google Gemini or processed by our backend or cloud services may be processed in countries other than the user's country of residence.
+
+The locations of these services may change as the App's infrastructure develops.
+
+Applicable service providers' policies and applicable laws will govern such processing and transfers.
+
+## 15. Future Features and Services
+
+The App's architecture may change in future versions.
+
+For example, we may:
+
+* Move AI processing from direct App-to-Google communication to a secure backend service
+* Introduce additional cloud infrastructure
+* Introduce cloud storage for scan information or images
+* Add additional authentication or application services
+
+If a future feature or service changes how user data is accessed, collected, used, stored, processed, or shared, this Privacy Policy will be updated to describe the new practices.
+
+Our Google Play Data Safety information will also be reviewed and updated when relevant data practices change.
+
+## 16. Changes to This Privacy Policy
+
+We may update this Privacy Policy when the App's features, services, data practices, or applicable legal requirements change.
+
+When material changes are made, we will update the **Effective Date** shown at the beginning of this Privacy Policy.
+
+Users should periodically review this Privacy Policy for updates.
+
+## 17. Contact Us
+
+**Developer:** [DEVELOPER/COMPANY NAME]
+**Email:** [CONTACT EMAIL]
+**Website:** [WEBSITE]
+
+For privacy questions, access requests, or data-deletion requests, please contact us using the information above.

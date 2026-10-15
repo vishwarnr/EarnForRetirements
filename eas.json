@@ -1,0 +1,43 @@
+{
+  "cli": {
+    "version": ">= 22.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://rnproducts.site/test-greenbless-web/api",
+        "EXPO_PUBLIC_DATA_CAPTURE_URL": "https://rnrrobots.site/test-fastapi",
+        "EXPO_PUBLIC_DATA_CAPTURE_UPLOAD_URL": "https://rnrrobots.site/test-fastapi/upload-pdf-new",
+        "EXPO_PUBLIC_USE_BACKEND_LOCATIONS": "false"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://rnproducts.site/test-greenbless-web/api",
+        "EXPO_PUBLIC_DATA_CAPTURE_URL": "https://rnrrobots.site/test-fastapi",
+        "EXPO_PUBLIC_DATA_CAPTURE_UPLOAD_URL": "https://rnrrobots.site/test-fastapi/upload-pdf-new",
+        "EXPO_PUBLIC_USE_BACKEND_LOCATIONS": "false"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://rnproducts.site/test-greenbless-web/api",
+        "EXPO_PUBLIC_DATA_CAPTURE_URL": "https://rnrrobots.site/test-fastapi",
+        "EXPO_PUBLIC_DATA_CAPTURE_UPLOAD_URL": "https://rnrrobots.site/test-fastapi/upload-pdf-new",
+        "EXPO_PUBLIC_USE_BACKEND_LOCATIONS": "false"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+
